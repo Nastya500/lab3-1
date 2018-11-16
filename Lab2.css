@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ff3300;
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+  height: 283px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 0 -75px 0;
+}
+
+.logo img {
+  margin: 10px 0px 10px 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+}
+
+header menu {
+  float: right;
+  background: yellow;
+  margin: -215px 92px;
+}
+header menu li {
+  display: inline-block;
+  padding: 10px;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+main {
+  background: #ff9933;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 75%;
+}
+
+.content-img img {
+  max-width: 300px;
+  float: left;
+  margin: 4px 28px 15px 0px;
+  width: 100%;
+}
+.content {
+  text-align: justify;
+}
+
+.content-1 img {
+  float: right;
+  margin-left: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.content-1 p {
+  margin-top: 90px;
+  text-align: justify;
+}
+.content-3 img {
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 15px;
+  max-width: 200px;
+  max-height: 300px;
+  border: 4px solid black;
+  display: block;
+}
+
+.content-3 {
+  display: inline-block;
+}
+
+.img1 {
+  float: left;
+}
+
+footer {
+  background: #ff9966;
+  position: relative;
+  margin-left: 150px;
+  left: 0;
+  bottom: 0;
+  height: 49px;
+  width: 75%;
+}
+
+.container {
+  float: left;
+  font-size: 15px;
+  margin-top: 65px;
+  margin: 22px 0 9px 30px;
+}
+
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.wrap {
+  padding-bottom: 41px;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  header {
+    margin: 0 0 0 98px;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+  header menu {
+    margin: -211px 2px;
+  }
+
+  main {
+    margin: 0 0 0 98px;
+  }
+
+  footer {
+    margin: 0 0 0 98px;
+  }
+}
+
+@media (max-width: 375px) and (orientation: portrait) {
+  header {
+    margin: 0px 0 0 49px;
+  }
+
+  header menu {
+    margin: 21px 2px;
+  }
+
+  main {
+    margin: 0px 0 0 49px;
+  }
+
+  footer {
+    margin: 0px 0 0 49px;
+    height: 52px;
+  }
+
+  .container {
+    margin: 4px 0 13px 34px;
+  }
+
+  .wrap {
+    padding-bottom: 52px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  header {
+    margin: 0 0 0 127px;
+  }
+
+  main {
+    margin: 0 0 0 127px;
+  }
+
+  footer {
+    margin: 0 0 0 127px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  header {
+    margin: 0 0 0 78px;
+  }
+
+  header menu {
+    margin: -152px 12px;
+  }
+
+  .logo img {
+    width: 47%;
+  }
+
+  header menu li {
+    padding: 4px;
+  }
+
+  main {
+    margin: 0 0 0 78px;
+  }
+
+  footer {
+    margin: 0 0 0 78px;
+  }
+}
