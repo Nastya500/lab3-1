@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.wrap {
+  padding-bottom: 41px;
+}
+
+header {
+  background: #ff3300;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 0 -75px 0;
+}
+
+.logo img {
+  display: block;
+  max-width: 250px;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+header menu {
+  float: right;
+  background: yellow;
+  margin: 74px 0px 0px 0px;
+}
+header menu li {
+  display: inline-block;
+  padding: 10px;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+
+main {
+  background: #ff9933;
+  padding: 20px;
+  margin: auto;
+  width: 75%;
+}
+
+.content-img img {
+  max-width: 300px;
+  float: left;
+  margin: 4px 28px 15px 0px;
+  width: 100%;
+}
+.content {
+  text-align: justify;
+}
+
+.content-1 img {
+  float: right;
+  margin-left: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.content-1 p {
+  margin-top: 90px;
+  text-align: justify;
+}
+.content-3 img {
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 15px;
+  max-width: 200px;
+  max-height: 300px;
+  border: 4px solid black;
+  display: block;
+}
+
+.content-3 {
+  display: inline-block;
+}
+
+.img1 {
+  float: left;
+}
+
+footer {
+  background: #ff9966;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 49px;
+  width: 75%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.container {
+  float: left;
+  font-size: 15px;
+  margin-top: 65px;
+  margin: 22px 0 9px 30px;
+}
+
+
+
+@media (max-width: 768px) {
+ 
+  header menu {
+    margin-top: 31px;
+ }
+  header menu li {
+    display: block;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  header menu {
+    margin: 0px 2px;
+  }
+
+  footer {
+    
+    height: 52px;
+    
+  }
+
+  .container {
+    margin: 4px 0 13px 34px;
+  }
+
+  .wrap {
+    padding-bottom: 52px;
+  }
+
+  .logo img {
+    width: 47%;
+  }
+
+  header menu li {
+    padding: 4px;
+  }
+
+}
